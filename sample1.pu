@@ -1,5 +1,5 @@
 @startuml
-object 生物
-object 人間
-生物 <-- 人間
+object 俺って
+object 最低だ
+俺って <-- 最低だ
 @enduml
