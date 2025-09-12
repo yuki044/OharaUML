@@ -1,0 +1,12 @@
+@startuml
+skinparam classAttributeIconSize 0
+class 車 {
+ メーカー
+ メーカー
+ メーカー
+ 走る()
+ 曲がる()
+ 止まる()
+}
+
+@enduml

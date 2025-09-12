@@ -1,2 +1,0 @@
-# OharaUML
-test
