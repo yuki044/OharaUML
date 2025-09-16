@@ -1,0 +1,12 @@
+@startuml RoboDogドメインモデル図
+skinparam componentStyle rectangle
+' RoboDog
+[Robodog] o-- [名前]
+[Robodog] o-- [メニュー画面]
+[Robodog] o-- [名前の変更画面]
+[Robodog] o-- [結果画面]
+
+[名前] <|-- [古い名前]
+[名前] <|-- [新しい名前]
+
+@enduml

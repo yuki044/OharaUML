@@ -1,0 +1,9 @@
+@startuml RoboDogユースケース図
+left to right direction
+actor ユーザー as U
+' RoboDog
+rectangle RoboDog {
+  usecase "名前を変更する" as UC1
+}
+U --> UC1
+@enduml

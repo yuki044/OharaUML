@@ -1,0 +1,11 @@
+@startuml RoboDogクラス図
+skinparam classAttributeIconSize 0
+hide circle
+' RoboDog
+class RoboDog {
+  - 名前 : String
+
+  + 名前の取得() : String
+  + 名前の変更(newName : String) : void
+}
+@enduml
